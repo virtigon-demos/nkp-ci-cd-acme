@@ -16,14 +16,14 @@ spec:
     spec:
       containers:
         - name: nkp-demo
-          image: ghcr.io/virtigon-demos/nkp-ci-cd-acme:v202603251118
+          image: ghcr.io/virtigon-demos/nkp-ci-cd-acme:v202604291604
           ports:
             - containerPort: 8080
           env:
             - name: APP_VERSION
               value: "v1.0"
             - name: BUILD_VERSION
-              value: "v202603251118"
+              value: "v202604291604"
           resources:
             requests:
               memory: "256Mi"
